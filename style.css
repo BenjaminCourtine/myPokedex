@@ -1,0 +1,321 @@
+#pokeInput {
+    position: absolute;
+    left: 500px;
+    top: 20px;
+
+}
+
+#pokeSubmit {
+    position: absolute;
+    left: 670px;
+    top: 20px;
+}
+
+#leftBloc {
+    background-color: #BF404A;
+    height: 450px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+
+#rightBloc {
+    background-color: #BF404A;
+    height: 410px;
+    width: 350px;
+    border-radius: 15px;
+    position: absolute;
+    top: 140px;
+    left: 658px;
+    z-index: 1;
+}
+#pokeHeaderLeft {
+    background-color: black;
+    border-radius: 15px 0 15px 0;
+    height: 80px;
+    width: 175px;
+    position: absolute;
+    z-index: 7;
+    box-shadow: 0 15px #98333B;
+}
+#pokeHeaderRight {
+    background-color: black;
+    border-radius: 0 15px 0 0;
+    height: 40px;
+    width: 270px;
+    position: absolute;
+    left: 389px;
+    z-index: 6;
+    box-shadow: 0 15px #98333B;
+}
+#myRotateDiv {
+    background-color: black;
+    border-radius: 0 0 0 15px;
+    height: 30px;
+    width: 62px;
+    position: absolute;
+    top: 139px;
+    left: 445px;
+    transform: rotate(310deg);
+    z-index: 7;
+    box-shadow: 0 15px #98333B;
+}
+#screenBorder {
+    background-color: #E6E6E6;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    left: 345px;
+    top: 215px;
+    border-radius: 15px 15px 15px 60px;
+    z-index: 1;
+}
+#screen {
+    background: linear-gradient(to bottom left, #8B8D81, #B8C1A4);
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    left: 380px;
+    top: 250px;
+    z-index: 2;
+    box-shadow: inset 1px 2px 10px 1px rgba(0, 0, 0, 0.7);
+}
+#rightBar {
+    background: linear-gradient(to right, #BF404A, #C4525B, #C86169, #C4525B, #BF404A);
+    height: 450px;
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    left: 588px;
+    border-radius: 0 15px 0 0;
+    border-left: solid #9D353D;
+    border-right: solid #9D353D;
+    z-index: 2;
+}
+#firstLittleLine {
+    background: linear-gradient(to right, #C86169, #C4525B, #BF404A, #C4525B, #C86169);
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    top: 60px;
+}
+#secondLittleLine {
+    background: linear-gradient(to right, #C86169, #C4525B, #BF404A, #C4525B, #C86169);
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    top: 80px;
+}
+#thirdLittleLine {
+    background: linear-gradient(to right, #C86169, #C4525B, #BF404A, #C4525B, #C86169);
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    top: 380px;
+}
+#foursLittleLine {
+    background: linear-gradient(to right, #C86169, #C4525B, #BF404A, #C4525B, #C86169);
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    top: 400px;
+}
+#redButton {
+    background: linear-gradient(#BA0000, #E50607);
+    border-radius:50%;
+    width:17px;
+    height:17px;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    border: 2px #B60304 solid;
+}
+#firstBlackButton {
+     background:#000000;
+     border-radius:50%;
+     width:7px;
+     height:7px;
+     position: absolute;
+     top: 10px;
+     left: 85px;
+     border: 2px #000000 solid;
+     z-index: 5;
+ }
+#secondBlackButton {
+    background:#000000;
+    border-radius:50%;
+    width:7px;
+    height:7px;
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    border: 2px #000000 solid;
+    z-index: 5;
+}
+#firstBlackLine {
+    background-color: black;
+    position: absolute;
+    top: 185px;
+    left: 143px;
+    z-index: 5;
+    height: 1.8px;
+    width: 30px;
+}
+#secondBlackLine {
+    background-color: black;
+    position: absolute;
+    top: 190px;
+    left: 143px;
+    z-index: 5;
+    height: 1.5px;
+    width: 30px;
+}
+#thirdBlackLine {
+    background-color: black;
+    position: absolute;
+    top: 195px;
+    left: 143px;
+    z-index: 5;
+    height: 1.8px;
+    width: 30px;
+}
+#foursBlackLine {
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 143px;
+    z-index: 5;
+    height: 1.8px;
+    width: 30px;
+}
+#yellowButton {
+    background-color: #B9D82E;
+    height: 6px;
+    width: 35px;
+    border-radius: 15px;
+    position: absolute;
+    top: 435px;
+    left: 400px;
+}
+#blackButton {
+    background-color: black;
+    height: 6px;
+    width: 35px;
+    border-radius: 15px;
+    position: absolute;
+    top: 435px;
+    left: 440px;
+}
+#otherBlackButton {
+    background: linear-gradient(#121212, #515151);
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    border: 3px #504F4F solid;
+}
+#otherRedButton {
+    background: linear-gradient(#006837, #117B49);
+    width:80px;
+    height:32px;
+    border-radius: 10px;
+    position: absolute;
+    top: 480px;
+    left: 395px;
+    border: 3px #006837 solid;
+}
+#myCube {
+    background: linear-gradient(#303030, #484847);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 475px;
+    left: 520px;
+}
+#myCircle {
+    background: linear-gradient(#292928, #515150);
+    border-radius:50%;
+    width:17px;
+    height:17px;
+    position: absolute;
+    top: 476px;
+    left: 521px;
+}
+#arrowTop {
+    background: linear-gradient(#242423, #323231);
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 445px;
+    left: 520px;
+}
+#arrowRight {
+    background: linear-gradient(#303030, #484847);
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 475px;
+    left: 540px;
+}
+#arrowBot {
+    background: linear-gradient(#484847, #585857);
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 495px;
+    left: 520px;
+}
+#arrowLeft {
+    background: linear-gradient(#303030, #484847);
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 475px;
+    left: 490px;
+}
+#triangleTop {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #1A1A19;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+#triangleRight {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #1A1A19;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+#triangleBot {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #1A1A19;
+    position: absolute;
+    top: 20px;
+    left: 3px;
+}
+#triangleLeft {
+    width: 0;
+    height: 0;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right:7px solid #1A1A19;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+
