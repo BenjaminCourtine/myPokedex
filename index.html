@@ -10,17 +10,35 @@
     <title>Document</title>
 </head>
 <body>
-
-<input type="text" id="pokeInput">
-<input type="submit" id="pokeSubmit" value="Search that pokemon">
+<form id="myForm">
+    <input type="text" id="pokeInput">
+    <input type="submit" id="pokeSubmit" value="Search that pokemon">
+</form>
+<div id="errorBlock"></div>
 
 <div id="leftBloc">
-    <div id="pokeHeaderLeft"></div>
-    <div id="pokeHeaderRight"></div>
+    <div id="pokeHeaderLeft">
+        <div id="blueCircle">
+            <div id="myBubble"></div>
+            <div id="littleWhiteCircle"></div>
+        </div>
+    </div>
+    <div id="pokeHeaderRight">
+        <div id="myRedLed">
+            <div id="firstWhitePoint"></div>
+        </div>
+        <div id="myOrangeLed">
+            <div id="secondWhitePoint"></div>
+        </div>
+        <div id="myYellowLed">
+            <div id="thirdWhitePoint"></div>
+        </div>
+    </div>
     <div id="myRotateDiv"></div>
 
-
-    <div id="screen"></div>
+    <div id="screen">
+        <div><img id="myImage"></div>
+    </div>
 
     <div id="screenBorder">
         <div id="redButton"></div>
@@ -37,7 +55,7 @@
     <div id="blackButton"></div>
 
     <div id="otherBlackButton"></div>
-    <div id="otherRedButton"></div>
+    <div id="otherGreenButton"></div>
 
     <div id="myPad">
         <div id="myCube"></div>
@@ -66,7 +84,36 @@
 </div>
 
 <div id="rightBloc">
+    <div id="mySecondScreen">
+        <div id="name"></div>
+        <div id="type"></div>
+    </div>
 
+    <div id="hideHeader"></div>
+    <div id="rotateHidediv"></div>
+    <div>
+        <div class="blueButton" id="blueButtonOne"></div>
+        <div class="blueButton" id="blueButtonTwo"></div>
+        <div class="blueButton" id="blueButtonThree"></div>
+        <div class="blueButton" id="blueButtonFour"></div>
+        <div class="blueButton" id="blueButtonFive"></div>
+        <div class="blueButton" id="blueButtonSix"></div>
+        <div class="blueButton" id="blueButtonSeven"></div>
+        <div class="blueButton" id="blueButtonHeight"></div>
+        <div class="blueButton" id="blueButtonNine"></div>
+        <div class="blueButton" id="blueButtonTen"></div>
+    </div>
+    <div>
+        <div id="firstWhiteButton"></div>
+        <div id="secondWhiteButton"></div>
+    </div>
+    <div id="secondYellowButton"></div>
+    <div id="thirdBlackButton"></div>
+
+    <div id="circleBlackButton"></div>
+
+    <div id="secondGreenButton"></div>
+    <div id="thirdGreenButton"></div>
 </div>
 
 </body>
